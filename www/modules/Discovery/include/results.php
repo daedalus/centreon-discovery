@@ -148,8 +148,8 @@ if (!empty($_POST)){
 					// Ajout macros
 				}
 				$tmpConf["host"]["host_snmp_version"] =  $hostInfos["snmp_version"];
-				$tmpConf["host"]["host_register"]["host_register"] = "1";
-				$tmpConf["host"]["host_activate"]["host_activate"] = "1";
+				$tmpConf["host"]["host_register"] = "1";
+				$tmpConf["host"]["host_activate"] = "1";
 				$tmpConf["host"]["host_template_model_htm_id"] = $_POST["select_template".$host];
 				if ($_POST["select_group".$host]!= -1)
 				{
