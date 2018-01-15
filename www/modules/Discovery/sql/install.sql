@@ -30,11 +30,11 @@
 --	
 -- Insertion des pages du module Centreon Discovery
 INSERT INTO `topology` (`topology_id`, `topology_name`, `topology_icone`, `topology_parent`, `topology_page`, `topology_order`, `topology_group`, `topology_url`, `topology_url_opt`, `topology_popup`, `topology_modules`, `topology_show`) 
-VALUES ('', 'Centreon Discovery', NULL, 6, 612, 100, 1, './modules/Discovery/include/ips.php', NULL, '0', '1', '1') ,
-('', 'IP addresses', './img/icones/16x16/client_network.gif', 612, 61201, 1, 1, './modules/Discovery/include/ips.php', NULL, '0', '1', '1') ,
-('', 'Results', './img/icones/16x16/column.gif', 612, 61202, 101, 1, './modules/Discovery/include/results.php', NULL, '0', '1', '1') ,
-('', 'Configuration', './img/icones/16x16/gear.gif', 612, 61203, 102, 1, './modules/Discovery/include/configuration.php', NULL, '0', '1', '1') , 
-('', 'About', './img/icones/16x16/about.gif', 612, 61204, 103, 1, './modules/Discovery/include/informations.php', NULL, '0', '1', '1');
+VALUES (NULL, 'Centreon Discovery', NULL, 6, 612, 100, 1, './modules/Discovery/include/ips.php', NULL, '0', '1', '1') ,
+(NULL, 'IP addresses', 612, 61201, 1, 1, './modules/Discovery/include/ips.php', NULL, '0', '1', '1') ,
+(NULL, 'Results', 612, 61202, 101, 1, './modules/Discovery/include/results.php', NULL, '0', '1', '1') ,
+(NUL, 'Configuration', 612, 61203, 102, 1, './modules/Discovery/include/configuration.php', NULL, '0', '1', '1') , 
+(NULL, 'About', 612, 61204, 103, 1, './modules/Discovery/include/informations.php', NULL, '0', '1', '1');
 
 
 -- DATABASE : @DB_NAME_CENTREON@
